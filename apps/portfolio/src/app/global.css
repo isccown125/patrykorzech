@@ -1,0 +1,31 @@
+.container-box{
+    position: sticky;
+    top: 10px;
+}
+.button-box{
+    position: sticky!important;
+    top:10px;
+    background-color: #583a54;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+     gap: 10px;
+}
+
+.box{
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-color: #583a54;
+}

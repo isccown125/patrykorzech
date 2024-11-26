@@ -1,0 +1,43 @@
+.hero-title__wrapper{
+  display: flex;
+  width: 90%;
+}
+
+.hero-title {
+  font-size: min(10vw, 100px);
+  font-weight: bold;
+  line-height: 1.2;
+  color: red;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.animate-cursor {
+  display: inline-block;
+  width: 10px;
+  height: 1em;
+  background-color: red;
+  animation: blink 1s infinite ease;
+}
+
+@keyframes blink {
+  0%, 100% {
+    background-color: red;
+  }
+  50% {
+    background-color: transparent;
+  }
+}
+
+.typed-title {
+  display: inline-block;
+}
+
+.typed-title span {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.typed-title span.visible {
+  opacity: 1;
+}

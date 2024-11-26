@@ -1,0 +1,17 @@
+.hero-layout{
+  display: block;
+  width: 100%;
+  height: calc(100% - min(100px, 10vh));
+  min-height: 100vh;
+  background: rgb(2,0,36);
+  background: linear-gradient(45deg, hsl(243, 100%, 0%) 0%, hsl(0, 0%, 16%) 45%, hsl(309, 100%, 35%) 90%);
+}
+.hero-content {
+  width: 100%;
+  height: 100vh;
+  backdrop-filter: blur(2px);
+  background-color: hsla(40, 0%, 20%, 20%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
